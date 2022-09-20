@@ -41,13 +41,14 @@ const InfoSection = ({
                 <TextWrapper>
                     <TopLine>{topLine}</TopLine>
                     <Heading lightText={lightText}>{headline}</Heading>
-                    <Subtitle darktText={darkText}>{description}</Subtitle>
+                    <Subtitle darkText={darkText}>{description}</Subtitle>
                     <BtnWrap>
-                        <Button to='home'
+                        <Button 
+                        to='home'
                         smooth={true}
                         duration={500}
                         spy={true}
-                        exact={true}
+                        exact='true'
                         offset={-80}
                         primary={primary ? 1 : 0}
                         dark={dark ? 1 : 0}

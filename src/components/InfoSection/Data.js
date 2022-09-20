@@ -12,7 +12,7 @@ export const homeObjOne = {
     alt:'flowers',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
 };
 
 export const homeObjTwo = {
@@ -27,13 +27,13 @@ export const homeObjTwo = {
     imgStart: true,
     img: require('../../images/svg-2.svg').default,
     alt:'truck',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true,
 };
 
 export const homeObjThree = {
-    id: 'about',
+    id: 'services',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -46,5 +46,5 @@ export const homeObjThree = {
     alt:'park',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
 };
