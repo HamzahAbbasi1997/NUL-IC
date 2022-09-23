@@ -27,16 +27,16 @@ const HeroSection = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
-          <HeroH1>Islamic Charity</HeroH1>
+          <HeroH1>An Islamic Charity based in Newcastle Under Lyme</HeroH1>
           <HeroP>
-            Sign up for a new account today and make a donation or something.
+            Scroll to find out about our mission, events and more!
           </HeroP>
           <HeroBtnWrapper>
             <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}
             primary="true"
             dark='true'
             >
-              Get started {hover ? <ArrowForward /> : <ArrowRight />}
+              Donate Now {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
         </HeroContent>

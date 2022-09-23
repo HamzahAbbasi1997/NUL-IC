@@ -17,20 +17,20 @@ const Services = () => {
     <ServicesContainer id="services">
         <ServicesH1>Our Services</ServicesH1>
         <ServicesWrapper>
-            <ServicesCard>
+            <ServicesCard to="/prayer">
                 <ServicesIcon src={Icon1} />
-                <ServicesH2>Donate something</ServicesH2>
-                <ServicesP>We can use your money to do stuff</ServicesP>
+                <ServicesH2>Prayer Timetable</ServicesH2>
+                <ServicesP>Under Development!</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon2} />
-                <ServicesH2>Other Text</ServicesH2>
-                <ServicesP>We can use your money to do stuff</ServicesP>
+                <ServicesH2>Events</ServicesH2>
+                <ServicesP>Coming Soon!</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon3} />
-                <ServicesH2>Cool Stuff</ServicesH2>
-                <ServicesP>We can use your money to do stuff</ServicesP>
+                <ServicesH2>Islamic Knowledge</ServicesH2>
+                <ServicesP>Coming Soon!</ServicesP>
             </ServicesCard>
         </ServicesWrapper>
     </ServicesContainer>
