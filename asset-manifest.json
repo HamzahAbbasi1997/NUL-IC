@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nulic.org.uk/static/css/main.d7da34c1.css",
-    "main.js": "/nulic.org.uk/static/js/main.abf580f2.js",
+    "main.js": "/nulic.org.uk/static/js/main.ce20543c.js",
     "static/media/video.mp4": "/nulic.org.uk/static/media/video.c8f438ddb6e1feac9fc4.mp4",
     "static/media/Charity Gift Aid Declaration.pdf": "/nulic.org.uk/static/media/Charity Gift Aid Declaration.d06564d6647614480b92.pdf",
     "static/media/svg-3.svg": "/nulic.org.uk/static/media/svg-3.5af0c8b2ccf96fa90f1838927145b04d.svg",
@@ -12,10 +12,10 @@
     "static/media/svg-4.svg": "/nulic.org.uk/static/media/svg-4.2a169ebb6011aef88503c8e8639ccfd8.svg",
     "index.html": "/nulic.org.uk/index.html",
     "main.d7da34c1.css.map": "/nulic.org.uk/static/css/main.d7da34c1.css.map",
-    "main.abf580f2.js.map": "/nulic.org.uk/static/js/main.abf580f2.js.map"
+    "main.ce20543c.js.map": "/nulic.org.uk/static/js/main.ce20543c.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.abf580f2.js"
+    "static/js/main.ce20543c.js"
   ]
 }
