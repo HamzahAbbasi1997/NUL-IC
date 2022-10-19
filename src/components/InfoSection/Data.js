@@ -42,7 +42,7 @@ export const homeObjThree = {
     lightTextDesc: true,
     topLine: 'Donations',
     headline: 'Sort Code: 010138 \n Account Number: 25405829',
-    description: 'If you are making a large donation then please fill out the Gift Aid Declaration Form.   Donations can also be made to our bank account. ',
+    description: 'If you are making a large donation then please fill out the Gift Aid Declaration Form. Donations can also be made to our bank account. ',
     buttonLabel: 'Donate',
     btnclick: 'home',
     imgStart: false,
