@@ -1,7 +1,9 @@
-import React from 'react'
-import Icon1 from '../../images/svg-4.svg'
-import Icon2 from '../../images/svg-5.svg'
-import Icon3 from '../../images/svg-6.svg'
+import React from 'react';
+import pdf from '../../files/Charity Gift Aid Declaration.pdf';
+// import {Link} from 'react-router-dom';
+import Icon1 from '../../images/svg-4.svg';
+import Icon2 from '../../images/svg-5.svg';
+import Icon3 from '../../images/svg-6.svg';
 import { 
     ServicesContainer, 
     ServicesH1,
@@ -10,7 +12,7 @@ import {
     ServicesIcon,
     ServicesH2,
     ServicesP
- } from './ServicesElements'
+ } from './ServicesElements';
 
 const Services = () => {
   return (
@@ -22,10 +24,10 @@ const Services = () => {
                 <ServicesH2>Prayer Timetable</ServicesH2>
                 <ServicesP>Under Development!</ServicesP>
             </ServicesCard>
-            <ServicesCard>
+            <ServicesCard href={pdf} download="Charity Gift Aid Declaration.pdf" target="_blank" id="download">
                 <ServicesIcon src={Icon2} />
-                <ServicesH2>Events</ServicesH2>
-                <ServicesP>Coming Soon!</ServicesP>
+                <ServicesH2>Gift Aid Declaration</ServicesH2>
+                <ServicesP>Click to Download.</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon3} />
