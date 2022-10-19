@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/nulic.org.uk/static/css/main.d7da34c1.css",
-    "main.js": "/nulic.org.uk/static/js/main.ce20543c.js",
-    "static/media/video.mp4": "/nulic.org.uk/static/media/video.c8f438ddb6e1feac9fc4.mp4",
-    "static/media/Charity Gift Aid Declaration.pdf": "/nulic.org.uk/static/media/Charity Gift Aid Declaration.d06564d6647614480b92.pdf",
-    "static/media/svg-3.svg": "/nulic.org.uk/static/media/svg-3.5af0c8b2ccf96fa90f1838927145b04d.svg",
-    "static/media/svg-1.svg": "/nulic.org.uk/static/media/svg-1.ba62eb5a40d0c7d113c091849b027df5.svg",
-    "static/media/svg-2.svg": "/nulic.org.uk/static/media/svg-2.6b2215b98c63b870755645d386757125.svg",
-    "static/media/svg-6.svg": "/nulic.org.uk/static/media/svg-6.6d485dd209fac3890120ddc007c5071d.svg",
-    "static/media/svg-5.svg": "/nulic.org.uk/static/media/svg-5.ac3bb1381b42989f59ddecd544e0f506.svg",
-    "static/media/svg-4.svg": "/nulic.org.uk/static/media/svg-4.2a169ebb6011aef88503c8e8639ccfd8.svg",
-    "index.html": "/nulic.org.uk/index.html",
-    "main.d7da34c1.css.map": "/nulic.org.uk/static/css/main.d7da34c1.css.map",
-    "main.ce20543c.js.map": "/nulic.org.uk/static/js/main.ce20543c.js.map"
+    "main.css": "./static/css/main.d7da34c1.css",
+    "main.js": "./static/js/main.5cd42cd1.js",
+    "static/media/video.mp4": "./static/media/video.c8f438ddb6e1feac9fc4.mp4",
+    "static/media/Charity Gift Aid Declaration.pdf": "./static/media/Charity Gift Aid Declaration.d06564d6647614480b92.pdf",
+    "static/media/svg-3.svg": "./static/media/svg-3.5af0c8b2ccf96fa90f1838927145b04d.svg",
+    "static/media/svg-1.svg": "./static/media/svg-1.ba62eb5a40d0c7d113c091849b027df5.svg",
+    "static/media/svg-2.svg": "./static/media/svg-2.6b2215b98c63b870755645d386757125.svg",
+    "static/media/svg-6.svg": "./static/media/svg-6.6d485dd209fac3890120ddc007c5071d.svg",
+    "static/media/svg-5.svg": "./static/media/svg-5.ac3bb1381b42989f59ddecd544e0f506.svg",
+    "static/media/svg-4.svg": "./static/media/svg-4.2a169ebb6011aef88503c8e8639ccfd8.svg",
+    "index.html": "./index.html",
+    "main.d7da34c1.css.map": "./static/css/main.d7da34c1.css.map",
+    "main.5cd42cd1.js.map": "./static/js/main.5cd42cd1.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.ce20543c.js"
+    "static/js/main.5cd42cd1.js"
   ]
 }
