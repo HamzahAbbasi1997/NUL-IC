@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "nulic.org.uk/precache-manifest.60d277983448ce9d05cb4f5be096e2e3.js"
+  "nulic.org.uk/precache-manifest.6d05e2639b37ba942b0f60ee46decf21.js"
 );
 
 workbox.clientsClaim();
