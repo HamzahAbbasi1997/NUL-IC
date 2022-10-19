@@ -23,10 +23,13 @@ const Services = () => {
                 <ServicesH2>Prayer Timetable</ServicesH2>
                 <ServicesP>Under Development!</ServicesP>
             </ServicesCard>
-            <ServicesCard href={pdf} download target="_blank" id="download">
+            <ServicesCard>
+                
                 <ServicesIcon src={Icon2} />
                 <ServicesH2>Gift Aid Declaration</ServicesH2>
-                <ServicesP>Click to Download.</ServicesP>
+                <a href={pdf} target="_blank" download="Charity Gift Aid Declaration.pdf">
+                    Click to download.
+                </a>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon3} />
