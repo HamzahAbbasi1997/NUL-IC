@@ -1,6 +1,5 @@
 import React from 'react';
 import pdf from '../../files/Charity Gift Aid Declaration.pdf';
-// import {Link} from 'react-router-dom';
 import Icon1 from '../../images/svg-4.svg';
 import Icon2 from '../../images/svg-5.svg';
 import Icon3 from '../../images/svg-6.svg';
