@@ -42,7 +42,7 @@ export const homeObjThree = {
     lightTextDesc: true,
     topLine: 'Donations',
     headline: 'Donate via PayPal or through Bank Transfer with our details below',
-    description: 'If you are making a large donation then please also fill out the Gift Aid Declaration Form.',
+    description: 'If you are a UK Taxpayer then please also fill out the Gift Aid Declaration Form.',
     buttonLabel: 'Donate',
     btnclick: 'home',
     imgStart: false,
