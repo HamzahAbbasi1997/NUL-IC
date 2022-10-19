@@ -10,7 +10,7 @@ import {
     NavItem, 
     NavLinks,
     NavBtn,
-    // NavBtnLink
+    NavBtnLink
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -52,7 +52,7 @@ const Navbar = ({ toggle }) => {
                     </NavItem>
                     <NavItem>
                         <NavLinks 
-                        to="discover"
+                        to="mission"
                         smooth={true}
                         duration={500}
                         spy={true}
@@ -70,7 +70,7 @@ const Navbar = ({ toggle }) => {
                     </NavItem>
                     <NavItem>
                         <NavLinks 
-                        to="signup"
+                        to="donate"
                         smooth={true}
                         duration={500}
                         spy={true}
@@ -78,7 +78,7 @@ const Navbar = ({ toggle }) => {
                         offset={-80}>Donate</NavLinks>
                     </NavItem>
                 </NavMenu>
-                <NavBtn>
+                <NavBtn >
                 <form action="https://www.paypal.com/donate" method="post" target="_top">
                 <input type="hidden" name="business" value="6YZRKBFES6PDU" />
                 <input type="hidden" name="no_recurring" value="0" />
@@ -87,7 +87,7 @@ const Navbar = ({ toggle }) => {
                 <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
                 </form>
 
-                    {/* <NavBtnLink to="/donate">Donate</NavBtnLink> */}
+                    {/* <NavBtnLink to="donate">Donate</NavBtnLink> */}
                 </NavBtn>
             </NavbarContainer>
         </Nav>
