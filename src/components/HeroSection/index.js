@@ -32,7 +32,12 @@ const HeroSection = () => {
             Scroll to find out about our mission, events and more!
           </HeroP>
           <HeroBtnWrapper>
-            <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}
+            <Button to="donate"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-80} onMouseEnter={onHover} onMouseLeave={onHover}
             primary="true"
             dark='true'
             >

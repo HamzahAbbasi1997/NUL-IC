@@ -23,18 +23,23 @@ const Services = () => {
                 <ServicesH2>Prayer Timetable</ServicesH2>
                 <ServicesP>Under Development!</ServicesP>
             </ServicesCard>
-            <ServicesCard>
+            <ServicesCard href={pdf} target="_blank" download="Charity Gift Aid Declaration.pdf">
                 
                 <ServicesIcon src={Icon2} />
                 <ServicesH2>Gift Aid Declaration</ServicesH2>
                 <a href={pdf} target="_blank" download="Charity Gift Aid Declaration.pdf">
-                    Click to download.
+                    Please open in new tab.
                 </a>
             </ServicesCard>
-            <ServicesCard>
+            <ServicesCard to="donate"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-80}>
                 <ServicesIcon src={Icon3} />
-                <ServicesH2>Islamic Knowledge</ServicesH2>
-                <ServicesP>Coming Soon!</ServicesP>
+                <ServicesH2>Donate Now</ServicesH2>
+                <ServicesP>Accepting donations.</ServicesP>
             </ServicesCard>
         </ServicesWrapper>
     </ServicesContainer>
