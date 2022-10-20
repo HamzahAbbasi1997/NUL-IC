@@ -27,9 +27,9 @@ const HeroSection = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
-          <HeroH1>An Islamic Charity based in Newcastle Under Lyme</HeroH1>
+          <HeroH1>"Those who spend their wealth in charity day and night, secretly and openly - their reward is with their Lord, and there will be no fear for them, nor will they grieve."</HeroH1>
           <HeroP>
-            Scroll to find out about our mission, events and more!
+            Al-Baqarah, Quran 2:274
           </HeroP>
           <HeroBtnWrapper>
             <Button to="donate"

@@ -3,15 +3,15 @@ import {Link} from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const ServicesContainer = styled.div`
-    height: 800px;
+    height: 900px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
     background: #010606;
 
     @media screen and (max-width: 768px){
-        height: 1100px;
+        height: 1200px;
     }
 
     @media screen and (max-width: 480px){
@@ -46,7 +46,7 @@ export const ServicesCard = styled(LinkS)`
     align-items: center;
     border-radius: 10px;
     max-height: 340px;
-    padding: 30px;
+    padding: 40px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
     text-decoration: none;
@@ -68,6 +68,7 @@ export const ServicesIcon = styled.img`
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
+    margin-top: 64px;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {
