@@ -43,9 +43,10 @@ const DonateSection = ({
                     <TopLine>{topLine}</TopLine>
                     <Heading lightText={lightText}>{headline}</Heading>
                     <Subtitle darkText={darkText}>{description}</Subtitle>
-                    <Subtitle darkText={darkText}>For Bank Transfers, please use the following information:</Subtitle>
-                    <Subtitle darkText={darkText}>Natwest Bank<br></br> Account Name: Newcastle Under Lyme Islamic Centre <br></br> Sort Code: 010138 <br></br> Account Number: 25405829
+                    <Subtitle darkText={darkText}>For Bank Transfers, please use the following information: <br></br> Natwest Bank<br></br> 
+                    Account Name: Newcastle Under Lyme Islamic Centre <br></br> Sort Code: 010138 <br></br> Account Number: 25405829 <br></br> <br></br>
                     Alternativly use the Donate button below for Debit/Credit or Paypal payments:</Subtitle>
+
 
                     <BtnWrap>
 

@@ -67,10 +67,10 @@ const Footer = () => {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to='/' onClick={toggleHome}>
-                        NUL Islamic Centre
+                        Newcastle Under Lyme Islamic Centre
                     </SocialLogo>
-                    <WebsiteRights>NUL Islamic Centre © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
-                    <SocialIcons>
+                    <WebsiteRights>Newcastle Under Lyme Islamic Centre © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                    {/* <SocialIcons>
                         <SocialIconLink href="//en-gb.facebook.com/" target="_blank" aria-label="Facebook">
                             <FaFacebook/>
                         </SocialIconLink>
@@ -86,7 +86,7 @@ const Footer = () => {
                         <SocialIconLink href="//uk.linkedin.com/" target="_blank" aria-label="LinkedIn">
                             <FaLinkedin/>
                         </SocialIconLink>
-                    </SocialIcons>
+                    </SocialIcons> */}
                 </SocialMediaWrap>
             </SocialMedia>
         </FooterWrap>

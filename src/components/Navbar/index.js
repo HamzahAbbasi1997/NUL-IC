@@ -36,7 +36,7 @@ const Navbar = ({ toggle }) => {
     <>
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-                <NavLogo to="/" onClick={toggleHome}>NUL Islamic Centre</NavLogo>
+                <NavLogo to="/" onClick={toggleHome}>Newcastle Under Lyme Islamic Centre</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>

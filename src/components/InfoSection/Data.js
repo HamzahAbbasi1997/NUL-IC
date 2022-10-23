@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'About Us',
     headline: 'We are a group of volunteers coming together to cater for needs of the Muslims.',
-    description: 'We started at the Royal Stoke Hospital Prayer Room. We wanted to create a space where all Muslims can pray in Newcastle Under Lyme. This idea grew into NULIC, a non-profit organisation and established registered charity. We have expanded our charitable work to Asia and Africa, through our volunteers.',
+    description: 'We wanted to create a space where all Muslims can pray in Newcastle Under Lyme. This idea grew into NULIC, a non-profit organisation and established registered charity. We have expanded our charitable work to Asia and Africa, through our volunteers.',
     buttonLabel: 'Get started',
     btnclick: 'mission',
     imgStart: false,
