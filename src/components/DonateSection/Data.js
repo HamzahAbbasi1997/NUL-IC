@@ -9,7 +9,7 @@ export const homeObjThree = {
     buttonLabel: 'Donate',
     btnclick: 'home',
     imgStart: false,
-    img: require('../../images/aqsa.jpg').default,
+    img: require('../../images/aqsa.jpg'),
     alt:'aqsa',
     dark: false,
     primary: false,

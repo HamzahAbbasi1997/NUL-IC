@@ -1,8 +1,8 @@
 import React from 'react';
 import pdf from '../../files/Charity Gift Aid Declaration.pdf';
-import Icon1 from '../../images/svg-4.svg';
-import Icon2 from '../../images/svg-5.svg';
-import Icon3 from '../../images/svg-6.svg';
+import Icon1 from '../../images/prayer.png';
+import Icon2 from '../../images/charity.png';
+import Icon3 from '../../images/donate.jpg';
 import { 
     ServicesContainer, 
     ServicesH1,

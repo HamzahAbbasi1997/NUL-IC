@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Video from '../../videos/video.mp4';
+import Video from '../../videos/video.webm';
 import { Button } from '../ButtonElements';
 import { 
   HeroContainer, 
@@ -24,7 +24,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
         <HeroBg>
-            <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+            <VideoBg autoPlay loop muted src={Video} type='video/webm' />
         </HeroBg>
         <HeroContent>
           <HeroH1>"Those who spend their wealth in charity day and night, secretly and openly - their reward is with their Lord, and there will be no fear for them, nor will they grieve."</HeroH1>
