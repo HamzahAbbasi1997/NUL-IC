@@ -1,21 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.d7da34c1.css",
-    "main.js": "./static/js/main.e36947fb.js",
-    "static/media/video.mp4": "./static/media/video.c8f438ddb6e1feac9fc4.mp4",
-    "static/media/aqsa.jpg": "./static/media/aqsa.ca1dbe284c993bf52807.jpg",
-    "static/media/haram.jpg": "./static/media/haram.7137a8ccd2ecedd4fae2.jpg",
-    "static/media/nabawi.jpg": "./static/media/nabawi.26c7df184eebc296cb77.jpg",
+    "main.js": "./static/js/main.12f33c74.js",
+    "static/media/nabawi.jpg": "./static/media/nabawi.9a793687790c0311b325.jpg",
+    "static/media/video.webm": "./static/media/video.ef31279f14b867a80c9a.webm",
+    "static/media/aqsa.jpg": "./static/media/aqsa.1bb7c44c82690c580e22.jpg",
+    "static/media/haram.jpg": "./static/media/haram.a3ed82488a99ae7961d2.jpg",
+    "static/media/prayer.png": "./static/media/prayer.db2a2d14753588960c8a.png",
     "static/media/Charity Gift Aid Declaration.pdf": "./static/media/Charity Gift Aid Declaration.d06564d6647614480b92.pdf",
-    "static/media/svg-6.svg": "./static/media/svg-6.6d485dd209fac3890120ddc007c5071d.svg",
-    "static/media/svg-5.svg": "./static/media/svg-5.ac3bb1381b42989f59ddecd544e0f506.svg",
-    "static/media/svg-4.svg": "./static/media/svg-4.2a169ebb6011aef88503c8e8639ccfd8.svg",
     "index.html": "./index.html",
     "main.d7da34c1.css.map": "./static/css/main.d7da34c1.css.map",
-    "main.e36947fb.js.map": "./static/js/main.e36947fb.js.map"
+    "main.12f33c74.js.map": "./static/js/main.12f33c74.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.e36947fb.js"
+    "static/js/main.12f33c74.js"
   ]
 }
