@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './pages';
 import DonatePage from './pages/donate';
 import PrayerPage from './pages/prayer';
+import GalleryPage from './pages/gallery';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} exact />
         <Route path="/donate" element={<DonatePage />} exact />
         <Route path="/prayer" element={<PrayerPage />} exact />
+        <Route path="/gallery" element={<GalleryPage />} exact />
       </Routes>
     </Router>
   );

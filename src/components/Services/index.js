@@ -8,6 +8,7 @@ import {
     ServicesH1,
     ServicesWrapper,
     ServicesCard,
+    ServicesCardFile,
     ServicesIcon,
     ServicesH2,
     ServicesP
@@ -23,14 +24,14 @@ const Services = () => {
                 <ServicesH2>Prayer Timetable</ServicesH2>
                 <ServicesP>Under Development!</ServicesP>
             </ServicesCard>
-            <ServicesCard href={pdf} target="_blank" download="Charity Gift Aid Declaration.pdf">
+            <ServicesCardFile href={pdf} target="_blank" download="Charity Gift Aid Declaration.pdf">
                 
                 <ServicesIcon src={Icon2} />
                 <ServicesH2>Gift Aid Declaration</ServicesH2>
                 <a href={pdf} target="_blank" download="Charity Gift Aid Declaration.pdf">
                     Please open in new tab.
                 </a>
-            </ServicesCard>
+            </ServicesCardFile>
             <ServicesCard to="donate"
                         smooth={true}
                         duration={500}
@@ -40,6 +41,11 @@ const Services = () => {
                 <ServicesIcon src={Icon3} />
                 <ServicesH2>Donate Now</ServicesH2>
                 <ServicesP>Accepting donations.</ServicesP>
+            </ServicesCard>
+            <ServicesCard to='/gallery'>
+                <ServicesIcon src={Icon1} />
+                <ServicesH2>Gallery</ServicesH2>
+                <ServicesP>Under Development!</ServicesP>
             </ServicesCard>
         </ServicesWrapper>
     </ServicesContainer>
