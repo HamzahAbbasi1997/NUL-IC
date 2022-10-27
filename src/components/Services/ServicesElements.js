@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const ServicesContainer = styled.div`
-    height: 900px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -15,7 +15,7 @@ export const ServicesContainer = styled.div`
     }
 
     @media screen and (max-width: 480px){
-        height: 1300px;
+        height: 1200px;
     }
 `
 
@@ -38,7 +38,28 @@ export const ServicesWrapper = styled.div`
     }
 `
 
-export const ServicesCard = styled(LinkS)`
+export const ServicesCard = styled(Link)`
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    max-height: 340px;
+    padding: 40px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+        transform: scale(1.02);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
+`
+
+export const ServicesCard2 = styled(LinkS)`
     background: #fff;
     display: flex;
     flex-direction: column;

@@ -19,6 +19,10 @@ export const InfoWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        height: 1100px;
+    }
 `
 
 export const InfoRow = styled.div`
@@ -91,7 +95,7 @@ export const ImgWrap = styled.div`
 `
 
 export const Img = styled.img`
-    width: 150%;
+    width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
 `
