@@ -1,5 +1,6 @@
 import React from 'react'
-import {Button} from '../ButtonElements'
+import pdf from '../../files/Charity Gift Aid Declaration.pdf';
+import {ButtonLink} from '../ButtonLink'
 import { 
     InfoContainer,
     InfoWrapper,
@@ -42,8 +43,15 @@ const DonateSection = ({
                 <TextWrapper>
                     <TopLine>{topLine}</TopLine>
                     <Heading lightText={lightText}>{headline}</Heading>
-                    <Subtitle darkText={darkText}>{description}</Subtitle>
-                    <Subtitle darkText={darkText}>For Bank Transfers, please use the following information: <br></br> Natwest Bank<br></br> 
+                    <Subtitle darkText={darkText} >{description}</Subtitle>
+                    <a href={pdf} target="_blank" rel="noopener noreferrer" download="Gift Aid Declaration Form.pdf">
+                    <ButtonLink>
+                        <i className="fas fa-download"/>
+                        Gift Aid Declaration Form
+                    </ButtonLink>
+                    </a>
+                    
+                    <Subtitle darkText={darkText}> <br></br>For Bank Transfers, please use the following information: <br></br> Natwest Bank<br></br> 
                     Account Name: Newcastle Under Lyme Islamic Centre <br></br> Sort Code: 010138 <br></br> Account Number: 25405829 <br></br> <br></br>
                     Alternativly use the Donate button below for Debit/Credit or Paypal payments:</Subtitle>
 

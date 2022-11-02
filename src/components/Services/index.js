@@ -22,15 +22,13 @@ const Services = () => {
             <ServicesCard to='/prayer'>
                 <ServicesIcon src={Icon1} />
                 <ServicesH2>Prayer Timetable</ServicesH2>
-                <ServicesP>Under Development!</ServicesP>
+                <ServicesP>See prayer times.</ServicesP>
             </ServicesCard>
-            <ServicesCard2 href={pdf} target="_blank" download="Charity Gift Aid Declaration.pdf">
+            <ServicesCard2>
                 
                 <ServicesIcon src={Icon2} />
-                <ServicesH2>Gift Aid Declaration</ServicesH2>
-                <a href={pdf} target="_blank" rel="noreferrer" download="Charity Gift Aid Declaration.pdf">
-                    Please open in new tab.
-                </a>
+                <ServicesH2>Gallery</ServicesH2>
+                <ServicesP>Under Development!</ServicesP>
             </ServicesCard2>
             <ServicesCard2 to="donate"
                         smooth={true}
