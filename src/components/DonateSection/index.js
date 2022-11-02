@@ -52,7 +52,7 @@ const DonateSection = ({
                     </a>
                     
                     <Subtitle darkText={darkText}> <br></br>For Bank Transfers, please use the following information: <br></br> Natwest Bank<br></br> 
-                    Account Name: Newcastle Under Lyme Islamic Centre <br></br> Sort Code: 010138 <br></br> Account Number: 25405829 <br></br> <br></br>
+                    Account Name: Newcastle Under Lyme Islamic Centre <br></br> Sort Code: 010138 <br></br> Account Number: 25405829 <br></br> BIC: NWBKGB2L<br></br>IBAN: GB28NWBK01013825405829 <br></br><br></br>
                     Alternativly use the Donate button below for Debit/Credit or Paypal payments:</Subtitle>
 
 

@@ -3,7 +3,9 @@ import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
 import DonateSection from '../components/DonateSection'
-import { homeObjThree} from '../components/DonateSection/Data'
+import { DonateObj} from '../components/DonateSection/Data'
+import CurrentSection from '../components/CurrentSection'
+import { CurrentObj} from '../components/CurrentSection/Data'
 import { homeObjOne, homeObjTwo} from '../components/InfoSection/Data'
 import Navbar from '../components/Navbar'
 import Services from '../components/Services'
@@ -21,10 +23,11 @@ const Home = () => {
     <Sidebar isOpen={isOpen} toggle={toggle} />
     <Navbar toggle={toggle} />
     <HeroSection />
+    <CurrentSection {...CurrentObj} />
     <InfoSection {...homeObjOne} />
     <InfoSection {...homeObjTwo} />
     <Services/>
-    <DonateSection {...homeObjThree} />
+    <DonateSection {...DonateObj} />
     <Footer/>
     </>
   )

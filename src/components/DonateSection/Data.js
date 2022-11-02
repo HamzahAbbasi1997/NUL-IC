@@ -1,11 +1,11 @@
-export const homeObjThree = {
+export const DonateObj = {
     id: 'donate',
     lightBg: true,
     lightText: false,
     lightTextDesc: true,
     topLine: 'Donations',
     headline: 'Donate via PayPal or through Bank Transfer with our details below',
-    description: 'If you are a UK Taxpayer then please also fill out the Gift Aid Declaration Form.',
+    description: 'If you are a UK Taxpayer then please also fill out the Gift Aid Declaration Form to enhance your Sadqa and return it to: nulic2021@gmail.com',
     buttonLabel: 'Donate',
     btnclick: 'home',
     imgStart: false,

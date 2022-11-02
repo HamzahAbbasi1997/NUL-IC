@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 900px;
+    height: 1000px;
     width: 100%;
     max-width: 1100ox;
     margin-right: auto;
@@ -21,7 +21,7 @@ export const InfoWrapper = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 768px) {
-        height: 1100px;
+        height: 1550px;
     }
 `
 
@@ -81,6 +81,15 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
+    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+`
+
+export const Subtitle2 = styled.p`
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
 
