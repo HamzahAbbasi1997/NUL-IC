@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.d7da34c1.css",
-    "main.js": "./static/js/main.8bb1c63c.js",
+    "main.js": "./static/js/main.ae394490.js",
     "static/media/nabawi.jpg": "./static/media/nabawi.9a793687790c0311b325.jpg",
     "static/media/video.webm": "./static/media/video.ef31279f14b867a80c9a.webm",
     "static/media/aqsa.jpg": "./static/media/aqsa.1bb7c44c82690c580e22.jpg",
@@ -10,12 +10,13 @@
     "static/media/church4.jpeg": "./static/media/church4.6678fb9d53c93703f89f.jpeg",
     "static/media/church1.jpeg": "./static/media/church1.33177643ab45c41a137c.jpeg",
     "static/media/Charity Gift Aid Declaration.pdf": "./static/media/Charity Gift Aid Declaration.90031fadb92a64e54acf.pdf",
+    "static/media/Gift Aid Form.docx": "./static/media/Gift Aid Form.05f4d823f23bc878cda5.docx",
     "index.html": "./index.html",
     "main.d7da34c1.css.map": "./static/css/main.d7da34c1.css.map",
-    "main.8bb1c63c.js.map": "./static/js/main.8bb1c63c.js.map"
+    "main.ae394490.js.map": "./static/js/main.ae394490.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.8bb1c63c.js"
+    "static/js/main.ae394490.js"
   ]
 }
