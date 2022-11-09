@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 900px;
+    height: 1000px;
     width: 100%;
     max-width: 1100ox;
     margin-right: auto;
@@ -20,8 +20,11 @@ export const InfoWrapper = styled.div`
     padding: 0 24px;
     justify-content: center;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 970px) {
         height: 1100px;
+    }
+    @media screen and (max-width: 768px) {
+        height: 1300px;
     }
 `
 
