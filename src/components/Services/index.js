@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../../files/Charity Gift Aid Declaration.pdf';
+import prayer from '../../files/prayer.pdf';
 import Icon1 from '../../images/prayer.png';
 import Icon2 from '../../images/charity.png';
 import Icon3 from '../../images/donate.jpg';
@@ -19,10 +19,10 @@ const Services = () => {
     <ServicesContainer id="services">
         <ServicesH1>Our Services</ServicesH1>
         <ServicesWrapper>
-            <ServicesCard to='/prayer'>
+            <ServicesCard href={prayer} target="_blank" rel="noopener noreferrer">
                 <ServicesIcon src={Icon1} />
                 <ServicesH2>Prayer Timetable</ServicesH2>
-                <ServicesP>See prayer times.</ServicesP>
+                <ServicesP>Click to download prayer timetable.</ServicesP>
             </ServicesCard>
             <ServicesCard2>
                 

@@ -38,7 +38,7 @@ export const ServicesWrapper = styled.div`
     }
 `
 
-export const ServicesCard = styled(Link)`
+export const ServicesCard = styled.a`
     background: #fff;
     display: flex;
     flex-direction: column;
