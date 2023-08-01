@@ -1,5 +1,6 @@
 import React from 'react';
 import prayer from '../../files/prayer.pdf';
+import donate from '../../files/Ways to donate.pdf';
 import Icon1 from '../../images/prayer.png';
 import Icon2 from '../../images/charity.png';
 import Icon3 from '../../images/donate.jpg';
@@ -24,12 +25,12 @@ const Services = () => {
                 <ServicesH2>Prayer Timetable</ServicesH2>
                 <ServicesP>Click to download prayer timetable.</ServicesP>
             </ServicesCard>
-            <ServicesCard2>
+            <ServicesCard href={donate} target="_blank" rel="noopener noreferrer">
                 
                 <ServicesIcon src={Icon2} />
-                <ServicesH2>Gallery</ServicesH2>
-                <ServicesP>Under Development!</ServicesP>
-            </ServicesCard2>
+                <ServicesH2>Ways to Donate</ServicesH2>
+                <ServicesP>Click for more info.</ServicesP>
+                </ServicesCard>
             <ServicesCard2 to="donate"
                         smooth={true}
                         duration={500}
