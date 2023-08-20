@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.d7da34c1.css",
-    "main.js": "./static/js/main.32c10ac2.js",
+    "main.js": "./static/js/main.b20337e3.js",
     "static/media/nabawi.jpg": "./static/media/nabawi.9a793687790c0311b325.jpg",
     "static/media/video.webm": "./static/media/video.ef31279f14b867a80c9a.webm",
     "static/media/Ways to donate.pdf": "./static/media/Ways to donate.7eff406e30b61d236cbc.pdf",
@@ -15,10 +15,10 @@
     "static/media/Gift Aid Form.docx": "./static/media/Gift Aid Form.05f4d823f23bc878cda5.docx",
     "index.html": "./index.html",
     "main.d7da34c1.css.map": "./static/css/main.d7da34c1.css.map",
-    "main.32c10ac2.js.map": "./static/js/main.32c10ac2.js.map"
+    "main.b20337e3.js.map": "./static/js/main.b20337e3.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.32c10ac2.js"
+    "static/js/main.b20337e3.js"
   ]
 }
