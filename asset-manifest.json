@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "./static/css/main.d7da34c1.css",
-    "main.js": "./static/js/main.b20337e3.js",
+    "main.js": "./static/js/main.c0eac39e.js",
     "static/media/nabawi.jpg": "./static/media/nabawi.9a793687790c0311b325.jpg",
     "static/media/video.webm": "./static/media/video.ef31279f14b867a80c9a.webm",
     "static/media/Ways to donate.pdf": "./static/media/Ways to donate.7eff406e30b61d236cbc.pdf",
+    "static/media/prayer.pdf": "./static/media/prayer.a955b1e13592b2bd0103.pdf",
     "static/media/aqsa.jpg": "./static/media/aqsa.1bb7c44c82690c580e22.jpg",
-    "static/media/prayer.pdf": "./static/media/prayer.eb860ce353add90cc02f.pdf",
     "static/media/haram.jpg": "./static/media/haram.a3ed82488a99ae7961d2.jpg",
     "static/media/prayer.png": "./static/media/prayer.db2a2d14753588960c8a.png",
     "static/media/church4.jpeg": "./static/media/church4.6678fb9d53c93703f89f.jpeg",
@@ -15,10 +15,10 @@
     "static/media/Gift Aid Form.docx": "./static/media/Gift Aid Form.05f4d823f23bc878cda5.docx",
     "index.html": "./index.html",
     "main.d7da34c1.css.map": "./static/css/main.d7da34c1.css.map",
-    "main.b20337e3.js.map": "./static/js/main.b20337e3.js.map"
+    "main.c0eac39e.js.map": "./static/js/main.c0eac39e.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.b20337e3.js"
+    "static/js/main.c0eac39e.js"
   ]
 }
